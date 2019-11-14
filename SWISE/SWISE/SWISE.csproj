@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CB3A812A-6DC1-497B-86B6-8D37EC2F4598}</ProjectGuid>
+    <ProjectGuid>{8D3AD986-4587-4392-AA6A-5456DD2D42D5}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ws_swise</RootNamespace>
-    <AssemblyName>ws-swise</AssemblyName>
+    <RootNamespace>SWISE</RootNamespace>
+    <AssemblyName>SWISE</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44318</IISExpressSSLPort>
+    <IISExpressSSLPort>44306</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,18 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Swise.asmx" />
+    <Content Include="SWISE.asmx" />
     <Content Include="Web.config" />
-    <Content Include="WebService1.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Swise.asmx.cs">
-      <DependentUpon>Swise.asmx</DependentUpon>
+    <Compile Include="SWISE.asmx.cs">
+      <DependentUpon>SWISE.asmx</DependentUpon>
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="WebService1.asmx.cs">
-      <DependentUpon>WebService1.asmx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -103,9 +99,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>62522</DevelopmentServerPort>
+          <DevelopmentServerPort>62723</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44318/</IISUrl>
+          <IISUrl>https://localhost:44306/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
